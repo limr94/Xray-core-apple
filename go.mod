@@ -1,6 +1,6 @@
 module github.com/xtls/xray-core
 
-go 1.24
+go 1.24.2
 
 require (
 	github.com/OmarTariq612/goech v0.0.0-20240405204721-8e2e1dafd3a0
@@ -35,6 +35,7 @@ require (
 )
 
 require (
+	Xray-core/dummy v0.0.0-00010101000000-000000000000 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140 // indirect
@@ -58,3 +59,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace Xray-core/dummy => ./dummy
